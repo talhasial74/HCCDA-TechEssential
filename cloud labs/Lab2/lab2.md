@@ -1,6 +1,6 @@
 # Lab 2: Deploying WordPress on a LAMP Stack
 
-![WordPress Install](images/S2)
+![WordPress Install](images/3.png)
 
 ## Objective
 
