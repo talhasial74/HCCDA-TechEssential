@@ -1,6 +1,6 @@
 # Lab 4: Installing and Deploying DeepSeek-R1 1.5B on Huawei Cloud
 
-![DeepSeek Lab](images/S5.png)
+![DeepSeek Lab](images/ollama2.png)
 
 ## Objective
 Deploy the DeepSeek-R1 1.5B large language model using Huawei Cloud ECS and Ollama.
@@ -33,7 +33,7 @@ Deploy the DeepSeek-R1 1.5B large language model using Huawei Cloud ECS and Olla
 - Click **Submit > Agree and Submit**
 
 
-![ECS](images/S2.png)
+![ECS](images/ecs.png)
 ---
 
 ### 1.2 Login to ECS
@@ -52,7 +52,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 ollama -v
 ```
 
-![Ollama Installed](images/S3.png)
+![Ollama Installed](images/ollama2.png)
 
 ## Option 2: Download from OBS (recommended)
 
@@ -104,12 +104,12 @@ Option 1: Pull from Ollama (slower)
 ollama pull deepseek-r1:7b
 ```
 
-![Deep Seek Installing (R1:7b)](images/S4.png)
+![Deep Seek Installing (R1:7b)](images/ollama2.png)
 
 ```
 ollama run deepseek-r1:7b
 ```
-![Deep Seek Installed (R1:7b)](images/S5.png)
+![Deep Seek Installed (R1:7b)](images/ollama3.png)
 
 If interrupted, press Ctrl+C and rerun. Ollama supports resumable downloads.
 
